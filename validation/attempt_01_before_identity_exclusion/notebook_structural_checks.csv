@@ -1,0 +1,71 @@
+check,passed
+Input hash: data/adjusted_close_raw.csv,True
+Input hash: data/identity_exclusions.json,True
+Input hash: data/universe.csv,True
+Input hash: data/sephwide_buy_signals.csv,True
+Dates unique and increasing,True
+Signals precede comparison,True
+Universe is all frozen BUY names,True
+At least 50 admitted assets,True
+Fit spans at least 24 months,True
+No unusable later price; no outcome-dependent removal,True
+Prices positive and finite,True
+Exact comparison end exists,True
+Chronological disjoint return dates,True
+No weekend return rows,True
+Eight finite price-derived features per asset,True
+Standardized feature means,True
+Standardized feature variances,True
+PCA reaches threshold minimally,True
+PCA reconstruction identity,True
+An eligible clustering exists,True
+All portfolio targets sum to one,True
+Long-only weights,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Simulator input alignment and finite returns,True
+Simulator weights valid,True
+Equity includes initial capital,True
+Equity reconciles to cumulative metric,True
+Drawdown is nonpositive,True
+Sharpe intervals ordered,True
+Alpha intervals ordered,True
+"Winner examples are subset, not universe filter",True
+Selected k satisfies declared selection,True
+Cluster weights do not depend on later returns,True

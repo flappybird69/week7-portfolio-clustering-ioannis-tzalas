@@ -1,0 +1,1767 @@
+{
+  "completed_utc": "2026-11-11T23:59:26.633981+00:00",
+  "checks_passed": 440,
+  "scope": "Separate numerical implementation by the same assistant; not independent third-party assurance or a predictive validation",
+  "results": [
+    {
+      "check": "Frozen input SHA-256 data/adjusted_close_raw.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input SHA-256 data/identity_exclusions.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input SHA-256 data/universe.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input SHA-256 data/sephwide_buy_signals.csv",
+      "passed": true
+    },
+    {
+      "check": "At least 50 assets",
+      "passed": true
+    },
+    {
+      "check": "Identity exclusion is retained",
+      "passed": true
+    },
+    {
+      "check": "Incomplete history exclusion retained",
+      "passed": true
+    },
+    {
+      "check": "All original 72 candidates are audited",
+      "passed": true
+    },
+    {
+      "check": "No empty sector classification in final table",
+      "passed": true
+    },
+    {
+      "check": "Fit/evaluation design is dated before collection completion",
+      "passed": true
+    },
+    {
+      "check": "At least 24 months of prices",
+      "passed": true
+    },
+    {
+      "check": "Mean feature ADM",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature ADM",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression ADM",
+      "passed": true
+    },
+    {
+      "check": "Mean feature AEO",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature AEO",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression AEO",
+      "passed": true
+    },
+    {
+      "check": "Mean feature AEP",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature AEP",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression AEP",
+      "passed": true
+    },
+    {
+      "check": "Mean feature AES",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature AES",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression AES",
+      "passed": true
+    },
+    {
+      "check": "Mean feature APA",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature APA",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression APA",
+      "passed": true
+    },
+    {
+      "check": "Mean feature ARCB",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature ARCB",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression ARCB",
+      "passed": true
+    },
+    {
+      "check": "Mean feature BG",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature BG",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression BG",
+      "passed": true
+    },
+    {
+      "check": "Mean feature BIDU",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature BIDU",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression BIDU",
+      "passed": true
+    },
+    {
+      "check": "Mean feature BNY",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature BNY",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression BNY",
+      "passed": true
+    },
+    {
+      "check": "Mean feature BWA",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature BWA",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression BWA",
+      "passed": true
+    },
+    {
+      "check": "Mean feature CAH",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature CAH",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression CAH",
+      "passed": true
+    },
+    {
+      "check": "Mean feature CAT",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature CAT",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression CAT",
+      "passed": true
+    },
+    {
+      "check": "Mean feature CENX",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature CENX",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression CENX",
+      "passed": true
+    },
+    {
+      "check": "Mean feature CIEN",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature CIEN",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression CIEN",
+      "passed": true
+    },
+    {
+      "check": "Mean feature CLSK",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature CLSK",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression CLSK",
+      "passed": true
+    },
+    {
+      "check": "Mean feature CNC",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature CNC",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression CNC",
+      "passed": true
+    },
+    {
+      "check": "Mean feature D",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature D",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression D",
+      "passed": true
+    },
+    {
+      "check": "Mean feature DD",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature DD",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression DD",
+      "passed": true
+    },
+    {
+      "check": "Mean feature DG",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature DG",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression DG",
+      "passed": true
+    },
+    {
+      "check": "Mean feature DLTR",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature DLTR",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression DLTR",
+      "passed": true
+    },
+    {
+      "check": "Mean feature DVA",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature DVA",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression DVA",
+      "passed": true
+    },
+    {
+      "check": "Mean feature EIX",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature EIX",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression EIX",
+      "passed": true
+    },
+    {
+      "check": "Mean feature EQIX",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature EQIX",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression EQIX",
+      "passed": true
+    },
+    {
+      "check": "Mean feature ETR",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature ETR",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression ETR",
+      "passed": true
+    },
+    {
+      "check": "Mean feature ETSY",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature ETSY",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression ETSY",
+      "passed": true
+    },
+    {
+      "check": "Mean feature FCX",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature FCX",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression FCX",
+      "passed": true
+    },
+    {
+      "check": "Mean feature FDX",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature FDX",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression FDX",
+      "passed": true
+    },
+    {
+      "check": "Mean feature FE",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature FE",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression FE",
+      "passed": true
+    },
+    {
+      "check": "Mean feature FORM",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature FORM",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression FORM",
+      "passed": true
+    },
+    {
+      "check": "Mean feature FTI",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature FTI",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression FTI",
+      "passed": true
+    },
+    {
+      "check": "Mean feature GM",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature GM",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression GM",
+      "passed": true
+    },
+    {
+      "check": "Mean feature GOOGL",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature GOOGL",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression GOOGL",
+      "passed": true
+    },
+    {
+      "check": "Mean feature HL",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature HL",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression HL",
+      "passed": true
+    },
+    {
+      "check": "Mean feature HP",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature HP",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression HP",
+      "passed": true
+    },
+    {
+      "check": "Mean feature HST",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature HST",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression HST",
+      "passed": true
+    },
+    {
+      "check": "Mean feature ILMN",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature ILMN",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression ILMN",
+      "passed": true
+    },
+    {
+      "check": "Mean feature INTC",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature INTC",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression INTC",
+      "passed": true
+    },
+    {
+      "check": "Mean feature JBHT",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature JBHT",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression JBHT",
+      "passed": true
+    },
+    {
+      "check": "Mean feature KALU",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature KALU",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression KALU",
+      "passed": true
+    },
+    {
+      "check": "Mean feature KMT",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature KMT",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression KMT",
+      "passed": true
+    },
+    {
+      "check": "Mean feature KNX",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature KNX",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression KNX",
+      "passed": true
+    },
+    {
+      "check": "Mean feature KO",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature KO",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression KO",
+      "passed": true
+    },
+    {
+      "check": "Mean feature KSS",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature KSS",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression KSS",
+      "passed": true
+    },
+    {
+      "check": "Mean feature LBRT",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature LBRT",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression LBRT",
+      "passed": true
+    },
+    {
+      "check": "Mean feature M",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature M",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression M",
+      "passed": true
+    },
+    {
+      "check": "Mean feature MRK",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature MRK",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression MRK",
+      "passed": true
+    },
+    {
+      "check": "Mean feature MRNA",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature MRNA",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression MRNA",
+      "passed": true
+    },
+    {
+      "check": "Mean feature MS",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature MS",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression MS",
+      "passed": true
+    },
+    {
+      "check": "Mean feature MU",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature MU",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression MU",
+      "passed": true
+    },
+    {
+      "check": "Mean feature NEE",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature NEE",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression NEE",
+      "passed": true
+    },
+    {
+      "check": "Mean feature NUE",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature NUE",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression NUE",
+      "passed": true
+    },
+    {
+      "check": "Mean feature NVT",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature NVT",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression NVT",
+      "passed": true
+    },
+    {
+      "check": "Mean feature PCVX",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature PCVX",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression PCVX",
+      "passed": true
+    },
+    {
+      "check": "Mean feature PLD",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature PLD",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression PLD",
+      "passed": true
+    },
+    {
+      "check": "Mean feature PSA",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature PSA",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression PSA",
+      "passed": true
+    },
+    {
+      "check": "Mean feature PTEN",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature PTEN",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression PTEN",
+      "passed": true
+    },
+    {
+      "check": "Mean feature RIOT",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature RIOT",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression RIOT",
+      "passed": true
+    },
+    {
+      "check": "Mean feature ROST",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature ROST",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression ROST",
+      "passed": true
+    },
+    {
+      "check": "Mean feature SPG",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature SPG",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression SPG",
+      "passed": true
+    },
+    {
+      "check": "Mean feature STLD",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature STLD",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression STLD",
+      "passed": true
+    },
+    {
+      "check": "Mean feature STT",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature STT",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression STT",
+      "passed": true
+    },
+    {
+      "check": "Mean feature STX",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature STX",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression STX",
+      "passed": true
+    },
+    {
+      "check": "Mean feature TGT",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature TGT",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression TGT",
+      "passed": true
+    },
+    {
+      "check": "Mean feature TS",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature TS",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression TS",
+      "passed": true
+    },
+    {
+      "check": "Mean feature UCTT",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature UCTT",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression UCTT",
+      "passed": true
+    },
+    {
+      "check": "Mean feature USFD",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature USFD",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression USFD",
+      "passed": true
+    },
+    {
+      "check": "Mean feature VZ",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature VZ",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression VZ",
+      "passed": true
+    },
+    {
+      "check": "Mean feature WDC",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature WDC",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression WDC",
+      "passed": true
+    },
+    {
+      "check": "Mean feature WELL",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature WELL",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression WELL",
+      "passed": true
+    },
+    {
+      "check": "Mean feature WULF",
+      "passed": true
+    },
+    {
+      "check": "Volatility feature WULF",
+      "passed": true
+    },
+    {
+      "check": "Training beta via regression WULF",
+      "passed": true
+    },
+    {
+      "check": "PCA variance via separate SVD",
+      "passed": true
+    },
+    {
+      "check": "Minimal 80% component count",
+      "passed": true
+    },
+    {
+      "check": "All seven candidate k retained",
+      "passed": true
+    },
+    {
+      "check": "Selection uses declared training-only rule",
+      "passed": true
+    },
+    {
+      "check": "Weights fully allocated Cluster 1",
+      "passed": true
+    },
+    {
+      "check": "Weights nonnegative Cluster 1",
+      "passed": true
+    },
+    {
+      "check": "Equal weights on exact membership Cluster 1",
+      "passed": true
+    },
+    {
+      "check": "Weights fully allocated Cluster 2",
+      "passed": true
+    },
+    {
+      "check": "Weights nonnegative Cluster 2",
+      "passed": true
+    },
+    {
+      "check": "Equal weights on exact membership Cluster 2",
+      "passed": true
+    },
+    {
+      "check": "Weights fully allocated All assets EW",
+      "passed": true
+    },
+    {
+      "check": "Weights nonnegative All assets EW",
+      "passed": true
+    },
+    {
+      "check": "Weights fully allocated Equal clusters",
+      "passed": true
+    },
+    {
+      "check": "Weights nonnegative Equal clusters",
+      "passed": true
+    },
+    {
+      "check": "Equal-cluster allocation identity",
+      "passed": true
+    },
+    {
+      "check": "Evaluation dates exact",
+      "passed": true
+    },
+    {
+      "check": "Daily fee/holdings reconciliation Cluster 1",
+      "passed": true
+    },
+    {
+      "check": "One-way turnover reconciliation Cluster 1",
+      "passed": true
+    },
+    {
+      "check": "Compounded terminal return Cluster 1",
+      "passed": true
+    },
+    {
+      "check": "Drawdown via wealth loop Cluster 1",
+      "passed": true
+    },
+    {
+      "check": "Annual volatility Cluster 1",
+      "passed": true
+    },
+    {
+      "check": "Excess-return Sharpe Cluster 1",
+      "passed": true
+    },
+    {
+      "check": "Beta via least-squares intercept model Cluster 1",
+      "passed": true
+    },
+    {
+      "check": "Alpha via least-squares intercept model Cluster 1",
+      "passed": true
+    },
+    {
+      "check": "Total charged one-way turnover Cluster 1",
+      "passed": true
+    },
+    {
+      "check": "85% Sharpe bootstrap interval Cluster 1",
+      "passed": true
+    },
+    {
+      "check": "85% alpha bootstrap interval Cluster 1",
+      "passed": true
+    },
+    {
+      "check": "Daily fee/holdings reconciliation Cluster 2",
+      "passed": true
+    },
+    {
+      "check": "One-way turnover reconciliation Cluster 2",
+      "passed": true
+    },
+    {
+      "check": "Compounded terminal return Cluster 2",
+      "passed": true
+    },
+    {
+      "check": "Drawdown via wealth loop Cluster 2",
+      "passed": true
+    },
+    {
+      "check": "Annual volatility Cluster 2",
+      "passed": true
+    },
+    {
+      "check": "Excess-return Sharpe Cluster 2",
+      "passed": true
+    },
+    {
+      "check": "Beta via least-squares intercept model Cluster 2",
+      "passed": true
+    },
+    {
+      "check": "Alpha via least-squares intercept model Cluster 2",
+      "passed": true
+    },
+    {
+      "check": "Total charged one-way turnover Cluster 2",
+      "passed": true
+    },
+    {
+      "check": "85% Sharpe bootstrap interval Cluster 2",
+      "passed": true
+    },
+    {
+      "check": "85% alpha bootstrap interval Cluster 2",
+      "passed": true
+    },
+    {
+      "check": "Daily fee/holdings reconciliation All assets EW",
+      "passed": true
+    },
+    {
+      "check": "One-way turnover reconciliation All assets EW",
+      "passed": true
+    },
+    {
+      "check": "Compounded terminal return All assets EW",
+      "passed": true
+    },
+    {
+      "check": "Drawdown via wealth loop All assets EW",
+      "passed": true
+    },
+    {
+      "check": "Annual volatility All assets EW",
+      "passed": true
+    },
+    {
+      "check": "Excess-return Sharpe All assets EW",
+      "passed": true
+    },
+    {
+      "check": "Beta via least-squares intercept model All assets EW",
+      "passed": true
+    },
+    {
+      "check": "Alpha via least-squares intercept model All assets EW",
+      "passed": true
+    },
+    {
+      "check": "Total charged one-way turnover All assets EW",
+      "passed": true
+    },
+    {
+      "check": "85% Sharpe bootstrap interval All assets EW",
+      "passed": true
+    },
+    {
+      "check": "85% alpha bootstrap interval All assets EW",
+      "passed": true
+    },
+    {
+      "check": "Daily fee/holdings reconciliation Equal clusters",
+      "passed": true
+    },
+    {
+      "check": "One-way turnover reconciliation Equal clusters",
+      "passed": true
+    },
+    {
+      "check": "Compounded terminal return Equal clusters",
+      "passed": true
+    },
+    {
+      "check": "Drawdown via wealth loop Equal clusters",
+      "passed": true
+    },
+    {
+      "check": "Annual volatility Equal clusters",
+      "passed": true
+    },
+    {
+      "check": "Excess-return Sharpe Equal clusters",
+      "passed": true
+    },
+    {
+      "check": "Beta via least-squares intercept model Equal clusters",
+      "passed": true
+    },
+    {
+      "check": "Alpha via least-squares intercept model Equal clusters",
+      "passed": true
+    },
+    {
+      "check": "Total charged one-way turnover Equal clusters",
+      "passed": true
+    },
+    {
+      "check": "85% Sharpe bootstrap interval Equal clusters",
+      "passed": true
+    },
+    {
+      "check": "85% alpha bootstrap interval Equal clusters",
+      "passed": true
+    },
+    {
+      "check": "Daily fee/holdings reconciliation SPY",
+      "passed": true
+    },
+    {
+      "check": "One-way turnover reconciliation SPY",
+      "passed": true
+    },
+    {
+      "check": "Compounded terminal return SPY",
+      "passed": true
+    },
+    {
+      "check": "Drawdown via wealth loop SPY",
+      "passed": true
+    },
+    {
+      "check": "Annual volatility SPY",
+      "passed": true
+    },
+    {
+      "check": "Excess-return Sharpe SPY",
+      "passed": true
+    },
+    {
+      "check": "Beta via least-squares intercept model SPY",
+      "passed": true
+    },
+    {
+      "check": "Alpha via least-squares intercept model SPY",
+      "passed": true
+    },
+    {
+      "check": "Total charged one-way turnover SPY",
+      "passed": true
+    },
+    {
+      "check": "85% Sharpe bootstrap interval SPY",
+      "passed": true
+    },
+    {
+      "check": "85% alpha bootstrap interval SPY",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY ADM",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio ADM",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY AEO",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio AEO",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY AEP",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio AEP",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY AES",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio AES",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY APA",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio APA",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY ARCB",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio ARCB",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY BG",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio BG",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY BIDU",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio BIDU",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY BNY",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio BNY",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY BWA",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio BWA",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY CAH",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio CAH",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY CAT",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio CAT",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY CENX",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio CENX",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY CIEN",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio CIEN",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY CLSK",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio CLSK",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY CNC",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio CNC",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY D",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio D",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY DD",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio DD",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY DG",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio DG",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY DLTR",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio DLTR",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY DVA",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio DVA",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY EIX",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio EIX",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY EQIX",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio EQIX",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY ETR",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio ETR",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY ETSY",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio ETSY",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY FCX",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio FCX",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY FDX",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio FDX",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY FE",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio FE",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY FORM",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio FORM",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY FTI",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio FTI",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY GM",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio GM",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY GOOGL",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio GOOGL",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY HL",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio HL",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY HP",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio HP",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY HST",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio HST",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY ILMN",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio ILMN",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY INTC",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio INTC",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY JBHT",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio JBHT",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY KALU",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio KALU",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY KMT",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio KMT",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY KNX",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio KNX",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY KO",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio KO",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY KSS",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio KSS",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY LBRT",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio LBRT",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY M",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio M",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY MRK",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio MRK",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY MRNA",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio MRNA",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY MS",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio MS",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY MU",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio MU",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY NEE",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio NEE",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY NUE",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio NUE",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY NVT",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio NVT",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY PCVX",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio PCVX",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY PLD",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio PLD",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY PSA",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio PSA",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY PTEN",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio PTEN",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY RIOT",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio RIOT",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY ROST",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio ROST",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY SPG",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio SPG",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY STLD",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio STLD",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY STT",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio STT",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY STX",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio STX",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY TGT",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio TGT",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY TS",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio TS",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY UCTT",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio UCTT",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY USFD",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio USFD",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY VZ",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio VZ",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY WDC",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio WDC",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY WELL",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio WELL",
+      "passed": true
+    },
+    {
+      "check": "Illustration price strictly after first BUY WULF",
+      "passed": true
+    },
+    {
+      "check": "Signal outcome price ratio WULF",
+      "passed": true
+    },
+    {
+      "check": "All admitted signal outcomes retained",
+      "passed": true
+    },
+    {
+      "check": "Losses remain visible",
+      "passed": true
+    },
+    {
+      "check": "Positive illustrations accurately ranked",
+      "passed": true
+    },
+    {
+      "check": "All code cells executed",
+      "passed": true
+    },
+    {
+      "check": "No notebook error outputs",
+      "passed": true
+    },
+    {
+      "check": "Inline image outputs exist",
+      "passed": true
+    },
+    {
+      "check": "HTML exported",
+      "passed": true
+    },
+    {
+      "check": "Superseded analytical version preserved",
+      "passed": true
+    }
+  ]
+}

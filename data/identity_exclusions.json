@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-11-11T23:54:13.317775+00:00",
+  "exclusions": {
+    "GOLD": "Issuer identity unresolved: frozen signal uses GOLD; Barrick changed GOLD to B on 2025-05-09 and Gold.com later reused GOLD. Do not silently map the strategy signal to either issuer."
+  },
+  "sources": [
+    "https://www.barrick.com/English/news/news-details/2025/barrick-Is-now-B-on-the-NYSE/default.aspx",
+    "https://ir.gold.com/news-events/press-releases/detail/212/gold-com-to-begin-trading-on-the-new-york-stock-exchange-under-ticker-symbol-gold"
+  ],
+  "timing": "Identity correction after first result inspection; earlier analysis retained, no claim of untouched holdout. No objective or later-window allocation rule changed."
+}

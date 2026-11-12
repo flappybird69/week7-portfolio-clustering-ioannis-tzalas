@@ -1,0 +1,117 @@
+{
+  "snapshot_utc": "2026-11-11T23:54:53.733722+00:00",
+  "repo_commit": "f61bac53adbe0ed0d55f858b8d10a4380fa0b65f",
+  "original_trade_log_sha256": "212250a9c63ee585578f0659c8ea3b5d456388b79649c77c9769f07ddeea35f9",
+  "universe_count": 72,
+  "data_origin": "Yahoo Finance via yfinance download; auto_adjust=True; daily adjusted Close",
+  "yfinance_version": "1.5.2",
+  "requested_start": "2023-09-01",
+  "requested_end_exclusive": "2026-10-22",
+  "download_attempts": [
+    {
+      "tickers": [
+        "ADM",
+        "AEO",
+        "AEP",
+        "AES",
+        "APA",
+        "ARCB",
+        "BG",
+        "BIDU",
+        "BNY",
+        "BWA",
+        "CAH",
+        "CAT",
+        "CENX",
+        "CIEN",
+        "CLSK"
+      ],
+      "rows": 787
+    },
+    {
+      "tickers": [
+        "CNC",
+        "D",
+        "DD",
+        "DG",
+        "DLTR",
+        "DVA",
+        "EIX",
+        "EQIX",
+        "ETR",
+        "ETSY",
+        "FCX",
+        "FDX",
+        "FE",
+        "FORM",
+        "FTI"
+      ],
+      "rows": 787
+    },
+    {
+      "tickers": [
+        "GM",
+        "GOLD",
+        "GOOGL",
+        "HL",
+        "HP",
+        "HST",
+        "ILMN",
+        "INTC",
+        "JBHT",
+        "KALU",
+        "KMT",
+        "KNX",
+        "KO",
+        "KSS",
+        "LBRT"
+      ],
+      "rows": 787
+    },
+    {
+      "tickers": [
+        "M",
+        "MRK",
+        "MRNA",
+        "MS",
+        "MU",
+        "NEE",
+        "NESR",
+        "NUE",
+        "NVT",
+        "PCVX",
+        "PLD",
+        "PSA",
+        "PTEN",
+        "RIOT",
+        "ROST"
+      ],
+      "rows": 787
+    },
+    {
+      "tickers": [
+        "SPG",
+        "STLD",
+        "STT",
+        "STX",
+        "TGT",
+        "TS",
+        "UCTT",
+        "USFD",
+        "VZ",
+        "WDC",
+        "WELL",
+        "WULF",
+        "SPY"
+      ],
+      "rows": 787
+    }
+  ],
+  "completed_utc": "2026-11-11T23:55:10.737227+00:00",
+  "files": {
+    "data/adjusted_close_raw.csv": "5e944e6434034d94b6bd29bb9ceb5459471c5b2addaa71c9fbbaaefbef8952ad",
+    "data/identity_exclusions.json": "a58bf710b16e49984c64874439dcc1f9529fb68edec04bdb17290700c3f21d2b",
+    "data/universe.csv": "7cc3e50a5b1a4bf3ba03b940719fda99f3dc96ba79727f0a7445467eab650921",
+    "data/sephwide_buy_signals.csv": "3f21e7f3c9625e7cff247666d9cc1e12e4fff279b5888d99e01fd9919a438d5b"
+  }
+}

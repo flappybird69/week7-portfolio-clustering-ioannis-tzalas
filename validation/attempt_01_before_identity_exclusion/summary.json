@@ -1,0 +1,21 @@
+{
+  "assets": 70,
+  "price_rows": 787,
+  "train_returns": 751,
+  "comparison_returns": 35,
+  "n_pc": 3,
+  "variance_retained": 0.8271016591729514,
+  "k": 2,
+  "elbow_k": 3,
+  "silhouette": 0.3880555437513044,
+  "seed_ari_min": 1.0,
+  "fits_final_version": 28,
+  "initializations_final_version": 1400,
+  "fits_including_superseded_data_version": 56,
+  "initializations_including_superseded_data_version": 2800,
+  "structural_checks": 70,
+  "best_cluster": "Cluster 1",
+  "worst_cluster": "Cluster 2",
+  "positive_signal_cases": 24,
+  "negative_signal_cases": 46
+}

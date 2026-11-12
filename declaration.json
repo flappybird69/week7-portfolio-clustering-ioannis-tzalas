@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-11-11T23:54:53.700091+00:00",
+  "purpose": "Individual Week 7 coursework; no live strategy proposal",
+  "universe": "All distinct SephWide BUY tickers dated on or before 2026-09-01; no P&L filter",
+  "prices_start": "2023-09-01",
+  "fit_end": "2026-09-01",
+  "evaluation_start": "2026-09-02",
+  "evaluation_end": "2026-10-21",
+  "features": [
+    "mean_ann",
+    "vol_ann",
+    "downside_ann",
+    "skew",
+    "max_drawdown",
+    "beta_spy",
+    "corr_spy",
+    "autocorr1"
+  ],
+  "pca_variance_threshold": 0.8,
+  "k_grid": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "selection": "Maximum training silhouette among k with minimum cluster size 3; smaller k breaks ties; elbow diagnostic only",
+  "kmeans_n_init": 50,
+  "seed": 42,
+  "stability": "20 additional fixed seeds at chosen k, training only; no reselection",
+  "weights": "Equal weights within each cluster, rebalanced daily; equal budget across clusters as a separate illustration",
+  "cost_one_way_bps": 10,
+  "cost_sensitivity_bps": [
+    0,
+    25
+  ],
+  "risk_free_annual": 0.03,
+  "annualization": 252,
+  "interval": "85% percentile circular block bootstrap; block 5; 2000 samples; descriptive, not promotion evidence",
+  "price_quality": "SPY session calendar; exact endpoints; >=99% coverage; <=2 consecutive missing; past-only ffill limit 2; no bfill; no nonpositive prices",
+  "winner_examples": "Top 5 first-BUY-to-evaluation-end adjusted-price gains among positive cases; full first-BUY table retained; explicitly retrospective",
+  "limitations": "Historical selection from local strategy ledger, not funded fills; conditional retrospective split; no fresh prospective holdout or point-in-time vendor vintage"
+}
